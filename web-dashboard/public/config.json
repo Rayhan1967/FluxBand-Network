@@ -1,0 +1,8 @@
+{
+  "CONTRACT_ADDRESS": "0x123722F0072126E1FD9f203b87AE8CCDfeec1aca",
+  "RPC_URL": "https://rpc-nebulas-testnet.uniultra.xyz",
+  "CHAIN_ID": 2484,
+  "NETWORK_NAME": "U2U Testnet",
+  "BUILD_TIME": "2025-08-29T16:58:59.037Z",
+  "VERSION": "1.0.0"
+}

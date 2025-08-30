@@ -1,0 +1,12 @@
+{
+  "network": "u2u_testnet",
+  "chainId": 2484,
+  "contractAddress": "0x123722F0072126E1FD9f203b87AE8CCDfeec1aca",
+  "deployerAddress": "0x3D3E66D075630410c442Ab5b145E4e5a5E64F1D5",
+  "blockNumber": 58901037,
+  "gasPrice": "1025001000",
+  "timestamp": "2025-08-29T16:34:57.715Z",
+  "contractVerified": false,
+  "minStake": "50.0",
+  "baseReward": "1.0"
+}

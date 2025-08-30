@@ -1,0 +1,46 @@
+{
+  "name": "fluxband-network",
+  "version": "1.0.0",
+  "description": "Decentralized Bandwidth Validation Network on U2U Blockchain",
+  "private": true,
+  "workspaces": [
+    "smart-contracts",
+    "browser-extension",
+    "api-backend",
+    "web-dashboard"
+  ],
+  "scripts": {
+    "install:all": "npm install --legacy-peer-deps && npm run install:contracts && npm run install:extension && npm run install:backend && npm run install:dashboard",
+    "install:contracts": "cd smart-contracts && npm install --legacy-peer-deps",
+    "install:extension": "cd browser-extension && npm install --legacy-peer-deps",
+    "install:backend": "cd api-backend && npm install --legacy-peer-deps",
+    "install:dashboard": "cd web-dashboard && npm install --legacy-peer-deps",
+    
+    "dev:contracts": "cd smart-contracts && npx hardhat node",
+    "dev:extension": "cd browser-extension && npm run build:watch",
+    "dev:backend": "cd api-backend && npm run dev",
+    "dev:dashboard": "cd web-dashboard && npm run dev",
+    
+    "build:all": "npm run build:contracts && npm run build:extension && npm run build:backend && npm run build:dashboard",
+    "build:contracts": "cd smart-contracts && npx hardhat compile",
+    "build:extension": "cd browser-extension && npm run build",
+    "build:backend": "cd api-backend && npm run build",
+    "build:dashboard": "cd web-dashboard && npm run build",
+    
+    "deploy:testnet": "cd smart-contracts && npm run deploy:testnet",
+    "deploy:mainnet": "cd smart-contracts && npm run deploy:mainnet",
+    
+    "test:all": "npm run test:contracts && npm run test:backend",
+    "test:contracts": "cd smart-contracts && npx hardhat test",
+    "test:backend": "cd api-backend && npm run test",
+    
+    "clean": "rm -rf node_modules */node_modules */.next */dist */build"
+  },
+  "keywords": ["depin", "bandwidth", "u2u", "blockchain", "validator", "fluxband", "web3", "hackathon"],
+  "author": "FluxBand Network Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.0"
+  }
+}
