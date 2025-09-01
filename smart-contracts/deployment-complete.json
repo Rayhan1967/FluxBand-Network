@@ -1,0 +1,34 @@
+{
+  "network": "U2U Testnet",
+  "chainId": 2484,
+  "timestamp": "2025-08-31T18:49:06.944Z",
+  "deployer": "0x3D3E66D075630410c442Ab5b145E4e5a5E64F1D5",
+  "contracts": {
+    "fluxBandNetwork": "0x4f9CA7e78Ab75353FB545Ee7Cc2828C1cEEa09ec",
+    "u2uToken": "0xAA41BDF071b4a39C955F99248117F2fA108C2F46",
+    "fluxToken": "0xCE40AB472861890D35db64A1C44200f499bf2464"
+  },
+  "features": {
+    "bandwidthTesting": true,
+    "userProfiles": true,
+    "referralSystem": true,
+    "stakingMechanism": true,
+    "nodeManagement": true,
+    "achievementSystem": true,
+    "leaderboardRanking": true,
+    "rewardDistribution": true
+  },
+  "tokenomics": {
+    "u2uTotalSupply": "10000000",
+    "fluxTotalSupply": "10000000",
+    "u2uReserves": "500000",
+    "fluxReserves": "200000"
+  },
+  "achievementIds": {
+    "FIRST_STEPS": "0x1a9aed951efb282a519f43e96cdd743c79bcca9bdf5b80b7af33a99bbd923394",
+    "SPEED_DEMON": "0xee6b1cdc3c1b8ff63b88c558280b1ec8f95d91dcac19a20a419d894e2bb07ba0",
+    "SOCIAL_BUTTERFLY": "0x4facc4067eb97abe0ddbadc1783e275937587f0670efa52c896830d5ce79a942",
+    "NETWORK_SUPPORTER": "0xef78783ff3c34a826d116c8fb7f7e53cc4d5faac74a91df0ea63a945259343b3",
+    "LEGEND_STATUS": "0x6c7e1ab9e012bc34902c92f6cc7852d050450903ce19afcf88477ed3bbb98170"
+  }
+}
